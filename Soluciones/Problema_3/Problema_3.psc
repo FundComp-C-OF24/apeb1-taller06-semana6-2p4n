@@ -6,7 +6,7 @@ Algoritmo Problema_2
 	Definir DiasTrabajo, i, n Como Entero
 	Definir nombre Como Caracter
 	Definir precio, Costo Como Real
-	i = 0
+	i = 1
 	n = 5
 	Mientras (i<=n) Hacer
 		Escribir "Datos empleado " , + i
@@ -17,11 +17,11 @@ Algoritmo Problema_2
 		Escribir "Costo por dia"
 		Leer Costo
 		precio = DiasTrabajo * Costo
-		i <- i+1
 		Escribir "Empleado ", + i
 		Escribir "Nombre: ", nombre, " ha trabajado ", DiasTrabajo, " dias"
 		Escribir "Con un costo de ", Costo, " $ por dia"
 		Escribir "El valor final a pagar es de ", precio
+		i <- i+1
 	FinMientras
 
 FinAlgoritmo
