@@ -5,6 +5,7 @@ Algoritmo Problema_5
 	i = 1
 	n = 7
 	Mientras (i<=n) Hacer
+		Escribir "============================"
 		Escribir "Cliente " , + i
 		Escribir "Cual es el precio del computador"
 		Leer costo
@@ -22,7 +23,8 @@ Algoritmo Problema_5
 				costo = costo-descuento
 				tipo = "2"
 			FinSi
-			FinSi
+		FinSi
+		Escribir "========================="
 		Escribir "Cliente ", i
 		Escribir "Costo Final ", costo
 		Escribir "Tipo de cliente ", tipo 
